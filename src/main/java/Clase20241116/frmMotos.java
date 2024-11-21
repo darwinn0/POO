@@ -37,6 +37,7 @@ public class frmMotos extends javax.swing.JFrame {
         TXTasientos = new javax.swing.JTextField();
         TXTfrenos = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Registro de Motos");
@@ -63,6 +64,8 @@ public class frmMotos extends javax.swing.JFrame {
 
         jButton1.setText("Aceptar");
 
+        jButton2.setText("Cancelar");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -86,8 +89,10 @@ public class frmMotos extends javax.swing.JFrame {
                             .addComponent(TXTfrenos, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(38, 38, 38)
-                        .addComponent(jButton1)))
-                .addContainerGap(245, Short.MAX_VALUE))
+                        .addComponent(jButton1)
+                        .addGap(63, 63, 63)
+                        .addComponent(jButton2)))
+                .addContainerGap(151, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -113,7 +118,9 @@ public class frmMotos extends javax.swing.JFrame {
                     .addComponent(jLabel5)
                     .addComponent(TXTfrenos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(30, 30, 30)
-                .addComponent(jButton1)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton1)
+                    .addComponent(jButton2))
                 .addContainerGap(48, Short.MAX_VALUE))
         );
 
@@ -162,6 +169,7 @@ public class frmMotos extends javax.swing.JFrame {
     private javax.swing.JTextField TXTmotor;
     private javax.swing.JTextField TXTrines;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
