@@ -38,15 +38,17 @@
                           <Component id="jLabel7" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="TxtLlantas" min="-2" pref="71" max="-2" attributes="0"/>
-                          <Component id="TxtRines" min="-2" pref="71" max="-2" attributes="0"/>
-                          <Component id="TxtCarroceria" alignment="0" min="-2" pref="71" max="-2" attributes="0"/>
-                          <Component id="TxtFrenos" min="-2" pref="71" max="-2" attributes="0"/>
-                          <Component id="TxtAsientos" min="-2" pref="71" max="-2" attributes="0"/>
-                          <Component id="TxtMotor" min="-2" pref="71" max="-2" attributes="0"/>
-                          <Component id="TxtTimon" min="-2" pref="71" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="TxtLlantas" alignment="0" pref="158" max="32767" attributes="0"/>
+                          <Component id="TxtRines" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TxtCarroceria" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TxtFrenos" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TxtAsientos" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TxtMotor" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TxtTimon" alignment="0" max="32767" attributes="0"/>
                       </Group>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="jLabel8" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="jButton1" min="-2" max="-2" attributes="0"/>
@@ -54,7 +56,7 @@
                       <Component id="jButton2" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="151" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -80,6 +82,7 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="TxtFrenos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel8" alignment="3" min="-2" pref="54" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -101,7 +104,7 @@
                   <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="12" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -173,6 +176,11 @@
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
         <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="REGISTRO DE CARROS "/>
       </Properties>
     </Component>
   </SubComponents>

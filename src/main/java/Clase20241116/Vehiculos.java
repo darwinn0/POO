@@ -21,7 +21,7 @@ public class Vehiculos
         this.frenos = frenos;
         this.asientos = asientos;
     }
-
+    
     public Integer getLlantas() {
         return llantas;
     }
@@ -52,7 +52,5 @@ public class Vehiculos
 
     public void setAsientos(Integer asientos) {
         this.asientos = asientos;
-    }
-    
-    
+    }   
 }
