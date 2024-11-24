@@ -59,7 +59,7 @@ public class Animales extends javax.swing.JFrame {
 
         jLabel2.setText("Boca");
 
-        jTextField2.setText("jTextField2");
+        jTextField2.setText(" ");
 
         jLabel3.setText("Cola");
 
@@ -67,11 +67,11 @@ public class Animales extends javax.swing.JFrame {
 
         jLabel5.setText("Patas");
 
-        jTextField3.setText("jTextField3");
+        jTextField3.setText(" ");
 
-        jTextField4.setText("jTextField4");
+        jTextField4.setText(" ");
 
-        jTextField5.setText("jTextField5");
+        jTextField5.setText(" ");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

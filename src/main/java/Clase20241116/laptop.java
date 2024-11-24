@@ -6,7 +6,7 @@ package Clase20241116;
 
 /**
  *
- * @author darwi
+ * @author darwin
  */
 public class laptop extends producto 
 {
