@@ -39,7 +39,11 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="TXTCUENTA" min="-2" pref="71" max="-2" attributes="0"/>
                           <Component id="TXTTASAINTERES" min="-2" pref="71" max="-2" attributes="0"/>
-                          <Component id="TXTSALDO" min="-2" pref="71" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="TXTSALDO" min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="jLabel6" pref="132" max="32767" attributes="0"/>
+                          </Group>
                           <Component id="TXTDNI" min="-2" pref="71" max="-2" attributes="0"/>
                           <Component id="TXTNOMBRECUENTA" min="-2" pref="71" max="-2" attributes="0"/>
                       </Group>
@@ -51,7 +55,7 @@
                       <Component id="BTNCANCELAR" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="172" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -68,10 +72,18 @@
                   <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="TXTDNI" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="TXTSALDO" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TXTSALDO" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -152,6 +164,11 @@
     <Component class="javax.swing.JTextField" name="TXTCUENTA">
       <Properties>
         <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CUENTA DE AHORROS "/>
       </Properties>
     </Component>
   </SubComponents>
